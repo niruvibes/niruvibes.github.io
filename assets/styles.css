@@ -1,9 +1,10 @@
 body {
     min-height: 100vh;
     background-image: url("./bg4.gif");
-    background-size: cover;
-    background-position: 50%;
+    background-size: 100%;
+    background-position: top;
     background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
 }
 
 #github:hover { color: #6e5494; }
@@ -28,4 +29,4 @@ body {
    60% { transform: rotate(10deg) } 
   100% { transform: rotate(0deg) }
 }
-  
+
