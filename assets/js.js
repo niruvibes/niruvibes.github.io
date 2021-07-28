@@ -12,7 +12,7 @@ window.onscroll = function() {
 window.onscroll = function(ev) {
   if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
      setTimeout(function() {
-        location.href = "/skills";
+        location.href = "/skills-forscroll.html";
      }, 10)
   }
 };
