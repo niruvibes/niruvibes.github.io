@@ -2,9 +2,13 @@ body {
     min-height: 100vh;
     background-image: url("./bg4.gif");
     background-size: 100%;
-    background-position: top;
+    background-position: center top;
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
+    background-attachment: fixed !important;
+    padding: 1rem;
+    padding-top: 0%;
+    color: #fff;
 }
 
 #github:hover { color: #6e5494; }
@@ -30,3 +34,23 @@ body {
   100% { transform: rotate(0deg) }
 }
 
+p {
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 1.6;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    color: #000;
+}
+
+.maininfo {
+    padding-top: 20%;
+}
+p {
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 1.6;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    color: #000;
+}
