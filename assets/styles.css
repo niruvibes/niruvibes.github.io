@@ -1,14 +1,13 @@
 body {
-    min-height: 100vh;
-    background-image: url("./bg4.gif");
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
-    background-attachment: fixed !important;
-    padding: 1rem;
-    padding-top: 0%;
-    color: #fff;
+  min-height: 100vh;
+  background: url("./bg4.gif");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  padding: 1rem;
+  padding-top: 0%;
+  color: rgb(228, 245, 243);
 }
 
 #github:hover { color: #6e5494; }
@@ -16,41 +15,77 @@ body {
 #discord:hover { color: #5865F2; }
 
 .wave {
-    animation-name: wave-animation;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
-  
+
 @keyframes wave-animation {
-    0% { transform: rotate(0deg) }
-   10% { transform: rotate(14deg) } 
-   20% { transform: rotate(-8deg) }
-   30% { transform: rotate(14deg) }
-   40% { transform: rotate(-3deg) }
-   50% { transform: rotate(10deg) }
-   60% { transform: rotate(10deg) } 
-  100% { transform: rotate(0deg) }
+  0% { transform: rotate(0deg) }
+ 10% { transform: rotate(14deg) } 
+ 20% { transform: rotate(-8deg) }
+ 30% { transform: rotate(14deg) }
+ 40% { transform: rotate(-3deg) }
+ 50% { transform: rotate(10deg) }
+ 60% { transform: rotate(10deg) } 
+100% { transform: rotate(0deg) }
 }
 
 p {
-    font-size: 1.3rem;
-    text-align: left;
-    line-height: 1.6;
-    margin-left: 8rem;
-    margin-right: 8rem;
-    color: #000;
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 1.6;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  color: #000;
 }
 
 .maininfo {
-    padding-top: 20%;
+  padding-top: 20%;
 }
 p {
-    font-size: 1.3rem;
-    text-align: left;
-    line-height: 1.6;
-    margin-left: 8rem;
-    margin-right: 8rem;
-    color: #000;
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 1.6;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  color: rgb(0, 0, 0);
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2D3A53 #171E33;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #171E33;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2D3A53;
+  border-radius: 20px;
+  border: 3px solid #171E33;
+}
+
+.scroll h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.scroll span {
+  display: block;
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+}
+.fillers {
+  padding-top: 5rem;
 }
