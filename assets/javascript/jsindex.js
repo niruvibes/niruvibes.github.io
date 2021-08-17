@@ -8,7 +8,7 @@ window.onscroll = function() {
   document.body.style.backgroundSize = "100%";
   }
 } */
-
+/*
 window.onscroll = function(ev) {
   if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
      setTimeout(function() {
@@ -16,4 +16,4 @@ window.onscroll = function(ev) {
      }, 10)
   }
 };
-
+*/
