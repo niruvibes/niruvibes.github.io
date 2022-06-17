@@ -12,12 +12,10 @@ body {
 
 .amongus {
     color: white;
-    margin: 20rem;
-    
+    margin: 20px
 }
 
-.text {
+.blur {
     background: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(8px); 
-    margin: 20rem;
   }
