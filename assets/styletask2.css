@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    background: url("./bg4.gif");
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    padding: 1rem;
+    padding-top: 0%;
+    color: rgb(228, 245, 243);
+  } 
+
+.amongus {
+    color: white;
+    margin: 20px;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+  }
+
+.text {
+    margin: 20px;
+}
